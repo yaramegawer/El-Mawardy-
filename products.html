@@ -95,7 +95,7 @@
 
       // Previous Button
       const prevBtn = document.createElement("button");
-      prevBtn.innerHTML = "&#11160;"; // Left arrow
+      prevBtn.innerHTML = "&#11160;"||"<"; // Left arrow
       prevBtn.classList.add("prev-btn");
       prevBtn.onclick = () => {
         currentIndex = (currentIndex - 1 + allImages.length) % allImages.length;
@@ -104,7 +104,7 @@
 
       // Next Button
       const nextBtn = document.createElement("button");
-      nextBtn.innerHTML = "&#11162;"; // Right arrow
+      nextBtn.innerHTML = "&#11162;"||">"; // Right arrow
       nextBtn.classList.add("next-btn");
       nextBtn.onclick = () => {
         currentIndex = (currentIndex + 1) % allImages.length;
