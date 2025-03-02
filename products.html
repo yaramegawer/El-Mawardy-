@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <link
+    
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
@@ -95,7 +98,8 @@
 
       // Previous Button
       const prevBtn = document.createElement("button");
-      prevBtn.innerHTML = "&#11160;"||"<"; // Left arrow
+      prevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
+
       prevBtn.classList.add("prev-btn");
       prevBtn.onclick = () => {
         currentIndex = (currentIndex - 1 + allImages.length) % allImages.length;
@@ -104,7 +108,7 @@
 
       // Next Button
       const nextBtn = document.createElement("button");
-      nextBtn.innerHTML = ">"; // Right arrow
+      nextBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';
       nextBtn.classList.add("next-btn");
       nextBtn.onclick = () => {
         currentIndex = (currentIndex + 1) % allImages.length;
