@@ -281,6 +281,21 @@ header {
   animation: fadeInUp 1.2s ease-in-out;
 }
 
+@media (max-width: 768px) {
+  .header__image {
+    display: block !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .header__image img {
+    display: block !important;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 @keyframes fadeInUp {
   0% {
     transform: translateY(40px);
@@ -304,17 +319,24 @@ header {
   color: var(--white);
 }
 
+.header__content {
+  flex: 1 1 300px;
+  text-align: right;
+}
+
 .header__image {
-  position: relative;
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .header__image img {
-  width:100%;
-  position: absolute;
-  bottom: -5rem;
-  height: 314px;
-
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 1rem;
 }
+
 
 
 
