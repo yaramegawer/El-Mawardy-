@@ -22,6 +22,7 @@ This is the frontend of **Al Mawardy Store**, a modern eCommerce fashion website
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page  
+![Screenshot 2025-06-24 144429](https://github.com/user-attachments/assets/d3b55899-ced1-49fc-9f88-c1af67df112e)
 ![Home Page](https://github.com/user-attachments/assets/c5f344ee-712c-40a6-a1df-40528b163cae)
 
 ### 🛍️ Product Listing  
